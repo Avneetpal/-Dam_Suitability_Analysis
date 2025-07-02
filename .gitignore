@@ -1,0 +1,29 @@
+# Ignore TIFF and SHP files
+*.TIF
+*.tif
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Jupyter and Python-specific ignores
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# System files
+.DS_Store
+# Ignore all data files
+Data/
+
+# Ignore Python virtual environment folders
+Geo_env/
+leo_env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Mac system files
+.DS_Store
+
